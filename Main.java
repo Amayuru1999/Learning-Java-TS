@@ -169,10 +169,19 @@
 //    }
 //}
 
+//public class Main{
+//    public static void main(String[] args){
+//        for (int i = 0; i<5; i++){
+//            System.out.println("Value of i:" + i);
+//        }
+//    }
+//}
+
 public class Main{
     public static void main(String[] args){
-        for (int i = 0; i<5; i++){
-            System.out.println("Value of i:" + i);
+        int[] Numbers = {10,20,30,40,50};
+        for(int num: Numbers){
+            System.out.println("Values of Number array:"+num);
         }
     }
 }
