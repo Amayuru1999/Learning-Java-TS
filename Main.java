@@ -102,15 +102,26 @@
 //    }
 //}
 
-class Person{
-    public String name = "Amayuru";
-    private int age = 26;
-}
+//class Person{
+//    public String name = "Amayuru";
+//    private int age = 26;
+//}
+//
+//public class Main{
+//    public static void main(String[] args){
+//        Person p = new Person();
+//        System.out.println(p.name);
+//        System.out.println(p.age);
+//    }
+//}
 
+/*Java Static*/
 public class Main{
+    static void myStaticMethod(){
+        System.out.println("Static methods can be called without creating objects");
+    }
     public static void main(String[] args){
-        Person p = new Person();
-        System.out.println(p.name);
-        System.out.println(p.age);
+        myStaticMethod();
+        Main.myStaticMethod();
     }
 }
