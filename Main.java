@@ -76,28 +76,41 @@
 //    }
 //}
 
+//public class Main{
+//    int modelYear;
+//    String modelName;
+//
+//    public Main(String modelName){
+//        this(2022,modelName);
+//    }
+//
+//    public Main(int modelYear,String modelName){
+//        this.modelYear = modelYear;
+//        this.modelName = modelName;
+//    }
+//
+//    public void printInfo(){
+//        System.out.println(modelYear + " " + modelName);
+//    }
+//
+//    public static void main(String[] args){
+//        Main car1 = new Main("Toyota");
+//        Main car2 = new Main(2019,"Nissan");
+//
+//        car1.printInfo();
+//        car2.printInfo();
+//    }
+//}
+
+class Person{
+    public String name = "Amayuru";
+    private int age = 26;
+}
+
 public class Main{
-    int modelYear;
-    String modelName;
-
-    public Main(String modelName){
-        this(2022,modelName);
-    }
-
-    public Main(int modelYear,String modelName){
-        this.modelYear = modelYear;
-        this.modelName = modelName;
-    }
-
-    public void printInfo(){
-        System.out.println(modelYear + " " + modelName);
-    }
-
     public static void main(String[] args){
-        Main car1 = new Main("Toyota");
-        Main car2 = new Main(2019,"Nissan");
-
-        car1.printInfo();
-        car2.printInfo();
+        Person p = new Person();
+        System.out.println(p.name);
+        System.out.println(p.age);
     }
 }
