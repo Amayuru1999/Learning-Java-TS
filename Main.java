@@ -177,11 +177,20 @@
 //    }
 //}
 
+//public class Main{
+//    public static void main(String[] args){
+//        int[] Numbers = {10,20,30,40,50};
+//        for(int num: Numbers){
+//            System.out.println("Values of Number array:"+num);
+//        }
+//    }
+//}
+
+/**Multi Dimensional Array**/
 public class Main{
     public static void main(String[] args){
-        int[] Numbers = {10,20,30,40,50};
-        for(int num: Numbers){
-            System.out.println("Values of Number array:"+num);
-        }
+        int[][] myNumbers = {{1,2,3},{4,5,6}};
+
     }
 }
+
