@@ -140,21 +140,31 @@
 //    System.out.println(Students.fname);
 //}
 
+//public class Main{
+//    public static class Person{
+//        private String name;
+//
+//        public String getName(){
+//            return name;
+//        }
+//        public void setName(String newName ){
+//            this.name = newName;
+//        }
+//    }
+//
+//    public static void main(String[] args){
+//        Person myObj = new Person();
+//        myObj.setName("Amayuru");
+//        System.out.println(myObj.getName());
+//    }
+//}
+
 public class Main{
-    public static class Person{
-        private String name;
-
-        public String getName(){
-            return name;
-        }
-        public void setName(String newName ){
-            this.name = newName;
-        }
-    }
-
     public static void main(String[] args){
-        Person myObj = new Person();
-        myObj.setName("Amayuru");
-        System.out.println(myObj.getName());
+        int i = 0;
+        while(i<5){
+            System.out.println(i);
+            i++;
+        }
     }
 }
