@@ -126,16 +126,35 @@
 //    }
 //}
 
-abstract class Main{
-    public String fname = "Amayuru";
-    public int age = 24;
-    public abstract void study();
-}
+//abstract class Main{
+//    public String fname = "Amayuru";
+//    public int age = 24;
+//    public abstract void study();
+//}
+//
+//class Students extends Main{
+//    public int graduationYear = 2025;
+//    public void study(){
+//        System.out.println("Study Amayuru Upanith Amarasinghe");
+//    }
+//    System.out.println(Students.fname);
+//}
 
-class Students extends Main{
-    public int graduationYear = 2025;
-    public void study(){
-        System.out.println("Study Amayuru Upanith Amarasinghe");
+public class Main{
+    public static class Person{
+        private String name;
+
+        public String getName(){
+            return name;
+        }
+        public void setName(String newName ){
+            this.name = newName;
+        }
     }
-    System.out.println(Students.fname);
+
+    public static void main(String[] args){
+        Person myObj = new Person();
+        myObj.setName("Amayuru");
+        System.out.println(myObj.getName());
+    }
 }
