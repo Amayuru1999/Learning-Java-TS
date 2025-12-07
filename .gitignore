@@ -1,3 +1,6 @@
 # Project exclude paths
 /output/
 /main.js
+
+/node_modules
+/.idea
