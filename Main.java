@@ -116,12 +116,26 @@
 //}
 
 /*Java Static*/
-public class Main{
-    static void myStaticMethod(){
-        System.out.println("Static methods can be called without creating objects");
+//public class Main{
+//    static void myStaticMethod(){
+//        System.out.println("Static methods can be called without creating objects");
+//    }
+//    public static void main(String[] args){
+//        myStaticMethod();
+//        Main.myStaticMethod();
+//    }
+//}
+
+abstract class Main{
+    public String fname = "Amayuru";
+    public int age = 24;
+    public abstract void study();
+}
+
+class Students extends Main{
+    public int graduationYear = 2025;
+    public void study(){
+        System.out.println("Study Amayuru Upanith Amarasinghe");
     }
-    public static void main(String[] args){
-        myStaticMethod();
-        Main.myStaticMethod();
-    }
+    System.out.println(Students.fname);
 }
