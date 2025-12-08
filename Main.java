@@ -186,11 +186,19 @@
 //    }
 //}
 
+import java.util.ArrayList;
+
 /**Multi Dimensional Array**/
+//public class Main{
+//    public static void main(String[] args){
+//        int[][] myNumbers = {{1,2,3},{4,5,6}};
+//
+//    }
+//}
+
 public class Main{
     public static void main(String[] args){
-        int[][] myNumbers = {{1,2,3},{4,5,6}};
-
+        ArrayList<String> cars = new ArrayList<String>();
+        cars
     }
 }
-
